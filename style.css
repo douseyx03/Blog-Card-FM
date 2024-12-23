@@ -1,0 +1,47 @@
+body{
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+h2{
+    font-weight: bolder;
+}
+#learning{
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 5px;
+    padding: 5px;
+    width:fit-content;
+    color: hsl(0, 0%, 7%);
+}
+#article{
+    width: 450px;
+    border-radius: 15px;
+}
+
+.card{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    width: 450px;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+    border: 10px;
+    margin: 20px;
+
+}
+.image{
+
+}
+.author {
+    display: flex;
+    align-items: center;   
+}
+
+.author img{
+    margin-right: 10px;
+}
